@@ -1,1 +1,3 @@
 # KMANS-GREATEST-HITS
+
+This is a project I did for my own enjoyment. While in the Cayman Islands, I found my favorite radio station; Gold 94.9 Caymans Greatest Hits. I wanted to automate the process of adding the music they play to my own Spotify playlist so that I didn't have to listen to the radio ads on their website livestream. To do so I used requests and Beautiful Soup to webscrape their weekly logs of songs. I then added all songs to a pandas dataframe. Then I iterated over the dataframe and used Spotify's python API to automatically add all the songs from teh dataframe to a playlist I own.  
